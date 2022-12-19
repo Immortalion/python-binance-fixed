@@ -1063,8 +1063,10 @@ class BinanceSocketManager:
 
         Message Format - see Binanace API docs for all types
         """
-
-        return self._get_account_socket('futures', stream_url=self.FSTREAM_URL)
+        if self.testnet:
+            return self._get_account_socket('futures', stream_url=self.FSTREAM_TESTNET_URL)
+        else:
+            return self._get_account_socket('futures', stream_url=self.FSTREAM_URL)
 
     def margin_socket(self):
         """Start a websocket for cross-margin data

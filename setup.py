@@ -26,7 +26,7 @@ setup(
     description='Binance REST API python implementation',
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url='https://github.com/sammchardy/python-binance',
+    url='https://github.com/Immortalion/python-binance-fixed',
     author='Sam McHardy',
     license='MIT',
     author_email='',
