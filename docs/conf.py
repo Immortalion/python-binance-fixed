@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'python-binance'
+project = 'python-binance-fixed'
 copyright = '2017, Sam McHardy'
 author = 'Sam McHardy'
 
